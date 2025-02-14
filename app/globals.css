@@ -2,20 +2,51 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+:root{
+  background-color: black;
+  color: white;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+
+.hover-button{
+  @apply w-24 h-9 flex justify-center items-center hover:scale-110 transition-all duration-100 font-bold text-[3vw] sm:text-xs lg:text-[1.2vw] 2xl:text-2xl 2xl:w-28
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.text-color{
+  background: linear-gradient(to right, rgb(8, 98, 201), rgba(72, 177, 238, 0.87), rgba(0, 119, 255, 0.39));
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0px 0px 50px rgb(0, 68, 255);
+
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000000;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #505050;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #757575;
+}
+
+.label-text{
+  @apply text-xl font-semibold
+}
+
+.social-box{
+  @apply w-16 h-16 rounded-xl relative hover:scale-105 hover:shadow-[0px_0px_0px_3px_rgba(3,102,214,0.3)] duration-100 p-3 shadow-[0px_30px_60px_-12px_rgba(50,50,93,0.25)_inset,0px_18px_36px_-18px_rgba(0,0,0,0.3)_inset]
+
 }

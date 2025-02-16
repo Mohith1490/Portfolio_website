@@ -59,4 +59,8 @@ export const skillData = [
         name:"Firebase",
         image:"/skills/firebase.svg"
     },
+    {
+        name:"Zustand",
+        image:"/skills/zustand.svg"
+    }
 ]

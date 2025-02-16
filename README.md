@@ -41,8 +41,8 @@ This portfolio is deployed using [Vercel](https://portfolio-website-hazel-nine-1
 ## 📬 Contact
 Feel free to reach out via:
 - Email: mohith1754singh@gmail.com
-- LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/mohithsingh1754/)
-- Twitter: [@yourhandle](https://x.com/MohithSingh_108)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohithsingh1754/)
+- Twitter: [X](https://x.com/MohithSingh_108)
 
 ---
 

@@ -8,9 +8,6 @@ export default function Home() {
           <p className="text-3xl md:text-5xl 2xl:text-7xl ">Hello, I'm</p>
           <h1 className="text-color text-4xl sm:text-7xl 2xl:text-9xl ">Mohith Singh</h1>
           <p className="text-2xl md:text-3xl mt-2 2xl:text-5xl ">Full-stack Developer.</p>
-          <a className="hover-button border-2 border-white rounded-3xl relative mt-5 bg-gradient-to-r from-blue-900 via-blue-700 to-blue-500" href="/resume.pdf" target="_blank" >
-            Resume
-          </a>
         </div>
         <div className="rounded-full  ">
           <Image 

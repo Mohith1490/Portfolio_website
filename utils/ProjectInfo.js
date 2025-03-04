@@ -7,13 +7,6 @@ export const ProjectDetails = [
         link:"https://randomusers-iota.vercel.app/"
     },
     {
-        image:"/projectImages/compiler.png",
-        title:"JSX Compiler",
-        description:"Code editor to compile jsx into js whith the help of babel.",
-        sourcecode:"https://github.com/Mohith1490/React-code-editor",
-        link:"https://classy-sunflower-3d6f16.netlify.app/"
-    },
-    {
         image:"/projectImages/blogapplication.png", 
         title:"Blog Application",
         description:"Blog application for startups who wants to present their ideas and get review on it.",

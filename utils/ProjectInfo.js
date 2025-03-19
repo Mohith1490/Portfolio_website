@@ -25,5 +25,11 @@ export const ProjectDetails = [
         title:"Hacktoberfest",
         description:"Won badges in hacktoberfest for contributing in opensource.",
         link:"https://www.holopin.io/hacktoberfest2024/userbadge/cm25cygsl57110cmc969lpyd9"
+    },
+    {
+        image:"/projectImages/mapoftheinternet.png",
+        title:"Map of the Internet",
+        description:"Map of the Internet is a visual representation of the digital world, where different categories like Social Media, Blogging, Streaming, and LLMs are mapped based on their market presence",
+        link:"https://map-of-the-internet.vercel.app/"
     }
 ]

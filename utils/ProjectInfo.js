@@ -1,10 +1,10 @@
 export const ProjectDetails = [
     {
-        image:"/projectImages/randomusers.png",
-        title:"Random Users",
-        description:"The Random User Generator API is a handy tool that creates fake user profiles on demand. ",
-        sourcecode:"https://github.com/Mohith1490/randomusers",
-        link:"https://randomusers-iota.vercel.app/"
+        image:"/projectImages/minimalDesign.png",
+        title:"Minimal style Portfolio",
+        description:"This is a minimal style portfolio design build using vue.js",
+        sourcecode:"https://www.figma.com/design/ugSN9kL55XPCHcpSe6D4zp/2024-Portfolios--Community-?node-id=0-1&t=z8C04WbAWvLfObgH-0",
+        link:"https://minimal-style-project.vercel.app/"
     },
     {
         image:"/projectImages/blogapplication.png", 

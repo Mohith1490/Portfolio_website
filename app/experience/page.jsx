@@ -33,21 +33,9 @@ function ExperienceCard({ logo, company, role, duration, points }) {
 // Page Component
 export default function Page() {
     return (
-        <div className="w-full min-h-screen flex flex-col items-center px-4 sm:px-10 lg:px-20 py-10 text-white">
+        <div className="w-full flex flex-col items-center px-4 sm:px-10 lg:px-20 py-10 text-white">
 
-            <ExperienceCard
-                logo="/reddit.svg"
-                company="Freelancing"
-                role="Frontend Developer"
-                duration="Apr 2024 – Jun 2024"
-                points={[
-                    "Developed responsive web applications for clients using Vue.js and Nuxt.js.",
-                    "Converted Figma designs into pixel-perfect Vue.js implementations.",
-                    "Implemented reusable UI components with TailwindCSS, improving design consistency and following best practices.",
-                    "Focused on performance optimization and ensured cross-browser compatibility.",
-                ]}
-            />
-            
+
             <ExperienceCard
                 logo="/sida.svg"
                 company="SIDA Technologies"
@@ -58,6 +46,18 @@ export default function Page() {
                     "Designed and implemented secure REST APIs and integrated them into frontend applications.",
                     "Built a client-facing dashboard from scratch, ensuring seamless usability and scalability.",
                     "Resolved critical issues quickly to maintain product stability and enhance user satisfaction.",
+                ]}
+            />
+            <ExperienceCard
+                logo="/reddit.svg"
+                company="Freelancing"
+                role="Frontend Developer"
+                duration="Apr 2024 – Jun 2024"
+                points={[
+                    "Developed responsive web applications for clients using Vue.js and Nuxt.js.",
+                    "Converted Figma designs into pixel-perfect Vue.js implementations.",
+                    "Implemented reusable UI components with TailwindCSS, improving design consistency and following best practices.",
+                    "Focused on performance optimization and ensured cross-browser compatibility.",
                 ]}
             />
         </div>

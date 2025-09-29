@@ -31,7 +31,7 @@ const Page = () => {
 
     return (
         <>
-            <div className='w-full min-h-screen flex justify-center items-center'>
+            <div className='w-full top-20 relative flex justify-center items-center'>
             {toast && <Toast message={toast.message} type={toast.type} onClose={() => setToast(null)} />}
                 <section className='w-full max-w-4xl bg-black border-2 border-white p-7 md:p-10 rounded-xl flex flex-col md:flex-row items-center justify-between gap-8'>
                     <form onSubmit={handleSubmit} className='w-full md:w-[45%] h-auto p-2 overflow-y-auto max-h-[70vh]'>

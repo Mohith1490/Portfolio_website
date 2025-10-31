@@ -10,13 +10,13 @@ export default function Home() {
           <p className="text-2xl md:text-3xl mt-2 2xl:text-5xl ">Full-stack Developer.</p>
         </div>
         <div className="rounded-full  ">
-          <Image
+          {/* <Image
             src='/profilepic.png'
             alt="profile-pic"
             width={400}
             height={400}
             className="rounded-xl"
-          />
+          /> */}
         </div>
 
       </section>
